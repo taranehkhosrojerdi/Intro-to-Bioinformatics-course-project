@@ -1,5 +1,7 @@
 This repository contains codes and documents for the course "Introduction to Bioinformatics" final project. This project contains different tasks with different learning aims.
+
 **Tasks overview:**
+
 **1-Find The Imposter:**
 This task consists assemblying a given dataset of short reads using Galaxy tools, and using BLAST search for the assembled genome. The results are then analyzed and different plots are provided for the analysis.
 
