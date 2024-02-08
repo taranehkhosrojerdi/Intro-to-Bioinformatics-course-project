@@ -1,0 +1,1103 @@
+      Logging screen output to file "logmrbayes.txt"
+      Setting autoclose to yes
+      Setting nowarnings to yes
+      Setting Nst to 6
+      Setting Rates to Invgamma
+      Successfully set likelihood model parameters
+      Setting Statefreqpr to Dirichlet(1.00,1.00,1.00,1.00)
+      Successfully set prior model parameters
+      Setting Ratepr to Variable [Dirichlet(..,1,..)] for partition 1
+      Successfully set prior model parameters
+      Setting number of generations to 15000
+      Using relative burnin (a fraction of samples discarded).
+      Setting burnin fraction to 0.25
+      Setting print frequency to 1000
+      Setting sample frequency to 1000
+      Setting number of chains to 4
+      Successfully set chain parameters
+      Running Markov chain
+      MCMC stamp = 8593579576
+      Seed = 1097146582
+      Swapseed = 1707407869
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = 6
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Invgamma
+                        The distribution is approximated using 4 categories.
+                        Likelihood summarized over all rate categories in each generation.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+                        Proportion of invariable sites is uniformly dist-
+                        ributed on the interval (0.00,1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Revmat              1
+         Statefreq           2
+         Shape               3
+         Pinvar              4
+         Ratemultiplier      5
+         Topology            6
+         Brlens              7
+         ---------------------
+
+         1 --  Parameter  = Revmat
+               Type       = Rates of reversible rate matrix
+               Prior      = Dirichlet(1.00,1.00,1.00,1.00,1.00,1.00)
+
+         2 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+
+         3 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         4 --  Parameter  = Pinvar
+               Type       = Proportion of invariable sites
+               Prior      = Uniform(0.00,1.00)
+
+         5 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Dirichlet(1.00)
+
+         6 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         7 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            0.90 %   Dirichlet(Revmat)
+            0.90 %   Slider(Revmat)
+            0.90 %   Dirichlet(Pi)
+            0.90 %   Slider(Pi)
+            1.80 %   Multiplier(Alpha)
+            1.80 %   Slider(Pinvar)
+            1.35 %   Dirichlet(Ratemultiplier)
+            1.35 %   Slider(Ratemultiplier)
+            9.01 %   ExtSPR(Tau,V)
+            9.01 %   ExtTBR(Tau,V)
+            9.01 %   NNI(Tau,V)
+            9.01 %   ParsSPR(Tau,V)
+           36.04 %   Multiplier(V)
+           12.61 %   Nodeslider(V)
+            5.41 %   TLMultiplier(V)
+
+      Division 1 has 17478 unique site patterns
+      Initializing conditional likelihoods
+      Using standard SSE likelihood calculator for division 1 (single-precision)
+      Initializing invariable-site conditional likelihoods
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -1178727.683010 -- 88.401526
+         Chain 2 -- -1174230.654263 -- 88.401526
+         Chain 3 -- -1176511.410689 -- 88.401526
+         Chain 4 -- -1177449.208573 -- 88.401526
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -1177698.311968 -- 88.401526
+         Chain 2 -- -1179025.019489 -- 88.401526
+         Chain 3 -- -1177718.990320 -- 88.401526
+         Chain 4 -- -1174518.108598 -- 88.401526
+
+
+      Using a relative burnin of 25.0 % for diagnostics
+
+      Chain results (15000 generations requested):
+
+          0 -- [-1178727.683] (-1174230.654) (-1176511.411) (-1177449.209) * [-1177698.312] (-1179025.019) (-1177718.990) (-1174518.109) 
+      Logging screen output to file "logmrbayes.txt"
+      Setting autoclose to yes
+      Setting nowarnings to yes
+      Setting Nst to 6
+      Setting Rates to Invgamma
+      Successfully set likelihood model parameters
+      Setting Statefreqpr to Dirichlet(1.00,1.00,1.00,1.00)
+      Successfully set prior model parameters
+      Setting Ratepr to Variable [Dirichlet(..,1,..)] for partition 1
+      Successfully set prior model parameters
+      Setting number of generations to 15000
+      Using relative burnin (a fraction of samples discarded).
+      Setting burnin fraction to 0.25
+      Setting print frequency to 1000
+      Setting sample frequency to 1000
+      Setting number of chains to 4
+      Successfully set chain parameters
+      Running Markov chain
+      MCMC stamp = 8131320580
+      Seed = 1492648730
+      Swapseed = 1707408383
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = 6
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Invgamma
+                        The distribution is approximated using 4 categories.
+                        Likelihood summarized over all rate categories in each generation.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+                        Proportion of invariable sites is uniformly dist-
+                        ributed on the interval (0.00,1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Revmat              1
+         Statefreq           2
+         Shape               3
+         Pinvar              4
+         Ratemultiplier      5
+         Topology            6
+         Brlens              7
+         ---------------------
+
+         1 --  Parameter  = Revmat
+               Type       = Rates of reversible rate matrix
+               Prior      = Dirichlet(1.00,1.00,1.00,1.00,1.00,1.00)
+
+         2 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+
+         3 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         4 --  Parameter  = Pinvar
+               Type       = Proportion of invariable sites
+               Prior      = Uniform(0.00,1.00)
+
+         5 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Dirichlet(1.00)
+
+         6 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         7 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            0.90 %   Dirichlet(Revmat)
+            0.90 %   Slider(Revmat)
+            0.90 %   Dirichlet(Pi)
+            0.90 %   Slider(Pi)
+            1.80 %   Multiplier(Alpha)
+            1.80 %   Slider(Pinvar)
+            1.35 %   Dirichlet(Ratemultiplier)
+            1.35 %   Slider(Ratemultiplier)
+            9.01 %   ExtSPR(Tau,V)
+            9.01 %   ExtTBR(Tau,V)
+            9.01 %   NNI(Tau,V)
+            9.01 %   ParsSPR(Tau,V)
+           36.04 %   Multiplier(V)
+           12.61 %   Nodeslider(V)
+            5.41 %   TLMultiplier(V)
+
+      Division 1 has 17478 unique site patterns
+      Initializing conditional likelihoods
+      Using standard SSE likelihood calculator for division 1 (single-precision)
+      Initializing invariable-site conditional likelihoods
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -1168045.629648 -- 88.401526
+         Chain 2 -- -1178470.389404 -- 88.401526
+         Chain 3 -- -1175041.313675 -- 88.401526
+         Chain 4 -- -1176417.645410 -- 88.401526
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -1181584.203478 -- 88.401526
+         Chain 2 -- -1178344.591672 -- 88.401526
+         Chain 3 -- -1176133.149654 -- 88.401526
+         Chain 4 -- -1179149.089011 -- 88.401526
+
+      Overwriting file "lastOne.fasta.nex.mcmc"
+      Overwriting file "lastOne.fasta.nex.run1.p"
+      Overwriting file "lastOne.fasta.nex.run1.t"
+      Overwriting file "lastOne.fasta.nex.run2.p"
+      Overwriting file "lastOne.fasta.nex.run2.t"
+
+      Using a relative burnin of 25.0 % for diagnostics
+
+      Chain results (15000 generations requested):
+
+          0 -- [-1168045.630] (-1178470.389) (-1175041.314) (-1176417.645) * [-1181584.203] (-1178344.592) (-1176133.150) (-1179149.089) 
+       1000 -- [-735686.835] (-748127.781) (-739615.952) (-737073.279) * (-737879.909) (-736014.884) (-747427.995) [-735658.452] -- 0:10:02
+       2000 -- [-735272.288] (-735892.094) (-735898.574) (-736305.736) * (-736968.611) (-735562.856) (-738256.201) [-735262.212] -- 0:08:53
+       3000 -- (-735084.142) [-734887.860] (-735498.995) (-735998.726) * (-735714.762) (-735481.110) (-736722.572) [-735108.509] -- 0:08:16
+       4000 -- (-735024.342) [-734780.407] (-735169.210) (-735945.190) * (-735248.294) (-735276.887) (-735566.149) [-735060.430] -- 0:07:39
+       5000 -- (-734760.854) [-734748.241] (-735098.472) (-735668.830) * (-735200.276) [-734837.806] (-734856.937) (-735000.548) -- 0:06:56
+
+      Average standard deviation of split frequencies: 0.220715
+
+       6000 -- (-734691.138) [-734697.287] (-734908.818) (-735507.391) * (-735055.724) (-734800.281) [-734669.186] (-734754.786) -- 0:06:18
+       7000 -- (-734693.049) [-734675.260] (-734754.769) (-735468.039) * (-735018.514) (-734699.976) (-734646.052) [-734621.290] -- 0:05:36
+       8000 -- (-734684.454) (-734633.067) [-734678.256] (-735462.037) * (-734939.820) (-734584.354) (-734650.035) [-734573.397] -- 0:04:55
+       9000 -- (-734687.712) (-734619.598) [-734637.196] (-735452.280) * (-734936.853) (-734553.944) (-734639.220) [-734543.043] -- 0:04:14
+      10000 -- (-734686.160) (-734604.335) [-734567.067] (-735443.090) * (-734909.002) [-734460.758] (-734631.683) (-734519.169) -- 0:03:32
+
+      Average standard deviation of split frequencies: 0.145608
+
+      11000 -- (-734688.827) (-734604.227) [-734452.588] (-735387.407) * (-734905.731) [-734385.665] (-734636.647) (-734489.506) -- 0:02:50
+      12000 -- (-734687.201) (-734583.742) [-734406.366] (-735380.672) * (-734911.323) [-734139.813] (-734631.185) (-734492.954) -- 0:02:08
+      13000 -- (-734687.647) (-734568.501) [-734354.808] (-735376.718) * (-734894.106) [-733890.368] (-734644.634) (-734494.141) -- 0:01:25
+      14000 -- (-734686.687) (-734532.215) [-734323.598] (-735368.480) * (-734900.565) [-733840.321] (-734619.936) (-734478.314) -- 0:00:43
+      15000 -- (-734689.864) (-734511.757) [-734324.281] (-735363.307) * (-734668.395) [-733814.760] (-734602.434) (-734485.666) -- 0:00:00
+
+      Average standard deviation of split frequencies: 0.226637
+
+      Analysis completed in 10 mins 48 seconds
+      Analysis used 647.10 seconds of CPU time
+      Likelihood of best state for "cold" chain of run 1 was -734319.40
+      Likelihood of best state for "cold" chain of run 2 was -734507.98
+
+      Acceptance rates for the moves in the "cold" chain of run 1:
+         With prob.   (last 100)   chain accepted proposals by move
+             8.1 %     (  8 %)     Dirichlet(Revmat)
+            26.0 %     ( 24 %)     Slider(Revmat)
+             3.4 %     (  5 %)     Dirichlet(Pi)
+             5.7 %     (  7 %)     Slider(Pi)
+            19.3 %     ( 25 %)     Multiplier(Alpha)
+             4.3 %     (  1 %)     Slider(Pinvar)
+             3.7 %     (  7 %)     Dirichlet(Ratemultiplier)
+            32.8 %     ( 38 %)     Slider(Ratemultiplier)
+            10.2 %     (  3 %)     ExtSPR(Tau,V)
+             8.8 %     (  5 %)     ExtTBR(Tau,V)
+            16.6 %     ( 12 %)     NNI(Tau,V)
+             1.3 %     (  0 %)     ParsSPR(Tau,V)
+            34.4 %     ( 27 %)     Multiplier(V)
+            27.2 %     ( 20 %)     Nodeslider(V)
+             3.2 %     (  1 %)     TLMultiplier(V)
+
+      Acceptance rates for the moves in the "cold" chain of run 2:
+         With prob.   (last 100)   chain accepted proposals by move
+            10.6 %     ( 12 %)     Dirichlet(Revmat)
+            28.0 %     ( 26 %)     Slider(Revmat)
+             1.5 %     (  2 %)     Dirichlet(Pi)
+             3.3 %     (  3 %)     Slider(Pi)
+            21.1 %     ( 17 %)     Multiplier(Alpha)
+             4.7 %     (  0 %)     Slider(Pinvar)
+            11.1 %     ( 21 %)     Dirichlet(Ratemultiplier)
+            25.2 %     ( 23 %)     Slider(Ratemultiplier)
+             8.6 %     (  4 %)     ExtSPR(Tau,V)
+             5.7 %     (  2 %)     ExtTBR(Tau,V)
+            11.9 %     ( 15 %)     NNI(Tau,V)
+             0.8 %     (  0 %)     ParsSPR(Tau,V)
+            35.9 %     ( 18 %)     Multiplier(V)
+            26.2 %     ( 13 %)     Nodeslider(V)
+             4.8 %     (  2 %)     TLMultiplier(V)
+
+      Chain swap information for run 1:
+
+                 1     2     3     4 
+           --------------------------
+         1 |        0.14  0.00  0.00 
+         2 |  2496        0.02  0.00 
+         3 |  2518  2478        0.00 
+         4 |  2510  2484  2514       
+
+      Chain swap information for run 2:
+
+                 1     2     3     4 
+           --------------------------
+         1 |        0.03  0.00  0.00 
+         2 |  2519        0.05  0.00 
+         3 |  2522  2424        0.00 
+         4 |  2491  2545  2499       
+
+      Upper diagonal: Proportion of successful state exchanges between chains
+      Lower diagonal: Number of attempted state exchanges between chains
+
+      Chain information:
+
+        ID -- Heat 
+       -----------
+         1 -- 1.00  (cold chain)
+         2 -- 0.91 
+         3 -- 0.83 
+         4 -- 0.77 
+
+      Heat = 1 / (1 + T * (ID - 1))
+         (where T = 0.10 is the temperature and ID is the chain number)
+
+
+      ************************* WARNING!! ************************************  
+      MrBayes suspects that your runs have not converged because the tree       
+      samples are very different (average standard deviation of split frequen-  
+      cies larger than 0.10 (0.23)). MrBayes suggests that you run the ana-   
+      lysis longer or try to improve the MCMC sampling efficiency by fine-      
+      tuning MCMC proposal or heating parameters.                               
+      Summarizing trees in files "lastOne.fasta.nex.run1.t" and "lastOne.fasta.nex.run2.t"
+      Using relative burnin ('relburnin=yes'), discarding the first 25 % of sampled trees
+      Writing statistics to files lastOne.fasta.nex.<parts|tstat|vstat|trprobs|con>
+      Examining first file ...
+      Found one tree block in file "lastOne.fasta.nex.run1.t" with 16 trees in last block
+      Expecting the same number of trees in the last tree block of all files
+
+      Tree reading status:
+
+      0      10      20      30      40      50      60      70      80      90     100
+      v-------v-------v-------v-------v-------v-------v-------v-------v-------v-------v
+      *********************************************************************************
+
+      Read a total of 32 trees in 2 files (sampling 24 of them)
+         (Each file contained 16 trees of which 12 were sampled)
+                                                                                   
+      General explanation:                                                          
+                                                                                   
+      In an unrooted tree, a taxon bipartition (split) is specified by removing a   
+      branch, thereby dividing the species into those to the left and those to the  
+      right of the branch. Here, taxa to one side of the removed branch are denoted 
+      '.' and those to the other side are denoted '*'. Specifically, the '.' symbol 
+      is used for the taxa on the same side as the outgroup.                        
+                                                                                   
+      In a rooted or clock tree, the tree is rooted using the model and not by      
+      reference to an outgroup. Each bipartition therefore corresponds to a clade,  
+      that is, a group that includes all the descendants of a particular branch in  
+      the tree.  Taxa that are included in each clade are denoted using '*', and    
+      taxa that are not included are denoted using the '.' symbol.                  
+                                                                                   
+      The output first includes a key to all the bipartitions with frequency larger 
+      or equual to (Minpartfreq) in at least one run. Minpartfreq is a parameter to 
+      sumt command and currently it is set to 0.10.  This is followed by a table  
+      with statistics for the informative bipartitions (those including at least    
+      two taxa), sorted from highest to lowest probability. For each bipartition,   
+      the table gives the number of times the partition or split was observed in all
+      runs (#obs) and the posterior probability of the bipartition (Probab.), which 
+      is the same as the split frequency. If several runs are summarized, this is   
+      followed by the minimum split frequency (Min(s)), the maximum frequency       
+      (Max(s)), and the standard deviation of frequencies (Stddev(s)) across runs.  
+      The latter value should approach 0 for all bipartitions as MCMC runs converge.
+                                                                                   
+      This is followed by a table summarizing branch lengths, node heights (if a    
+      clock model was used) and relaxed clock parameters (if a relaxed clock model  
+      was used). The mean, variance, and 95 % credible interval are given for each 
+      of these parameters. If several runs are summarized, the potential scale      
+      reduction factor (PSRF) is also given; it should approach 1 as runs converge. 
+      Node heights will take calibration points into account, if such points were   
+      used in the analysis.                                                         
+                                                                                    
+      Note that Stddev may be unreliable if the partition is not present in all     
+      runs (the last column indicates the number of runs that sampled the partition 
+      if more than one run is summarized). The PSRF is not calculated at all if     
+      the partition is not present in all runs.The PSRF is also sensitive to small  
+      sample sizes and it should only be considered a rough guide to convergence    
+      since some of the assumptions allowing one to interpret it as a true potential
+      scale reduction factor are violated in MrBayes.                               
+                                                                                    
+      List of taxa in bipartitions:                                                 
+                                                                                   
+         1 -- NC_060520
+         2 -- NC_051932
+         3 -- OR620163
+         4 -- NC_001665
+         5 -- NC_053523
+         6 -- NC_029849
+         7 -- NC_003081
+         8 -- NC_023832
+         9 -- NC_001941
+        10 -- MZ318036
+        11 -- NC_024511
+        12 -- MN356385
+        13 -- NC_022817
+        14 -- NC_026461
+        15 -- NC_005089
+        16 -- NC_002784
+        17 -- NC_009684
+        18 -- NC_026542
+        19 -- NC_002785
+        20 -- NC_045042
+        21 -- NC_027095
+        22 -- NC_007897
+        23 -- NC_027938
+        24 -- LC705055
+        25 -- NC_003426
+        26 -- NC_030265
+        27 -- NC_027096
+        28 -- NC_005129
+        29 -- MK886830
+        30 -- MF069441
+        31 -- NC_064558
+        32 -- NC_027424
+        33 -- NC_036264
+
+      Key to taxon bipartitions (saved to file "lastOne.fasta.nex.parts"):
+
+       ID -- Partition
+      ----------------------------------------
+        1 -- 
+        2 -- 
+        3 -- 
+        4 -- 
+        5 -- 
+        6 -- 
+        7 -- 
+        8 -- 
+        9 -- 
+       10 -- 
+       11 -- 
+       12 -- 
+       13 -- 
+       14 -- 
+       15 -- 
+       16 -- 
+       17 -- 
+       18 -- 
+       19 -- 
+       20 -- 
+       21 -- 
+       22 -- 
+       23 -- 
+       24 -- 
+       25 -- 
+       26 -- 
+       27 -- 
+       28 -- 
+       29 -- 
+       30 -- 
+       31 -- 
+       32 -- 
+       33 -- 
+       34 -- 
+       35 -- 
+       36 -- 
+       37 -- 
+       38 -- 
+       39 -- 
+       40 -- 
+       41 -- 
+       42 -- 
+       43 -- 
+       44 -- 
+       45 -- 
+       46 -- 
+       47 -- 
+       48 -- 
+       49 -- 
+       50 -- 
+       51 -- 
+       52 -- 
+       53 -- 
+       54 -- 
+       55 -- 
+       56 -- 
+       57 -- 
+       58 -- 
+       59 -- 
+       60 -- 
+       61 -- 
+       62 -- 
+       63 -- 
+       64 -- 
+       65 -- 
+       66 -- 
+       67 -- 
+       68 -- 
+       69 -- 
+       70 -- 
+       71 -- 
+       72 -- 
+       73 -- 
+       74 -- 
+       75 -- 
+       76 -- 
+       77 -- 
+       78 -- 
+       79 -- 
+       80 -- 
+       81 -- 
+       82 -- 
+       83 -- 
+       84 -- 
+       85 -- 
+       86 -- 
+       87 -- 
+       88 -- 
+       89 -- 
+       90 -- 
+       91 -- 
+       92 -- 
+       93 -- 
+       94 -- 
+       95 -- 
+       96 -- 
+       97 -- 
+       98 -- 
+       99 -- 
+      100 -- 
+      101 -- 
+      102 -- 
+      103 -- 
+      104 -- 
+      105 -- 
+      106 -- 
+      107 -- 
+      108 -- 
+      109 -- 
+      110 -- 
+      111 -- 
+      112 -- 
+      113 -- 
+      114 -- 
+      115 -- 
+      116 -- 
+      117 -- 
+      118 -- 
+      119 -- 
+      120 -- 
+      121 -- 
+      122 -- 
+      123 -- 
+      124 -- 
+      125 -- 
+      126 -- 
+      127 -- 
+      128 -- 
+      129 -- 
+      130 -- 
+      131 -- 
+      132 -- 
+      133 -- 
+      134 -- 
+      135 -- 
+      136 -- 
+      137 -- 
+      138 -- 
+      139 -- 
+      140 -- 
+      141 -- 
+      142 -- 
+      143 -- 
+      144 -- 
+      145 -- 
+      146 -- 
+      147 -- 
+      148 -- 
+      149 -- 
+      150 -- 
+      151 -- 
+      152 -- 
+      153 -- 
+      154 -- 
+      155 -- 
+      156 -- 
+      157 -- 
+      158 -- 
+      159 -- 
+      160 -- 
+      161 -- 
+      162 -- 
+      163 -- 
+      ----------------------------------------
+
+      Summary statistics for informative taxon bipartitions
+         (saved to file "lastOne.fasta.nex.tstat"):
+
+       ID   #obs    Probab.     Sd(s)+      Min(s)      Max(s)   Nruns 
+      -----------------------------------------------------------------
+       34    24    1.000000    0.000000    1.000000    1.000000    2
+       35    16    0.666667    0.471405    0.333333    1.000000    2
+       36    13    0.541667    0.176777    0.416667    0.666667    2
+       37    12    0.500000    0.589256    0.083333    0.916667    2
+       38    12    0.500000    0.589256    0.083333    0.916667    2
+       39    11    0.458333    0.176777    0.333333    0.583333    2
+       40     9    0.375000    0.530330    0.000000    0.750000    1 *
+       41     9    0.375000    0.058926    0.333333    0.416667    2
+       42     9    0.375000    0.530330    0.000000    0.750000    1 *
+       43     9    0.375000    0.412479    0.083333    0.666667    2
+       44     8    0.333333    0.471405    0.000000    0.666667    1 *
+       45     8    0.333333    0.471405    0.000000    0.666667    1 *
+       46     8    0.333333    0.471405    0.000000    0.666667    1 *
+       47     8    0.333333    0.471405    0.000000    0.666667    1 *
+       48     8    0.333333    0.471405    0.000000    0.666667    1 *
+       49     8    0.333333    0.471405    0.000000    0.666667    1 *
+       50     7    0.291667    0.412479    0.000000    0.583333    1 *
+       51     7    0.291667    0.412479    0.000000    0.583333    1 *
+       52     7    0.291667    0.294628    0.083333    0.500000    2
+       53     7    0.291667    0.412479    0.000000    0.583333    1 *
+       54     7    0.291667    0.412479    0.000000    0.583333    1 *
+       55     7    0.291667    0.176777    0.166667    0.416667    2
+       56     7    0.291667    0.412479    0.000000    0.583333    1 *
+       57     7    0.291667    0.412479    0.000000    0.583333    1 *
+       58     6    0.250000    0.353553    0.000000    0.500000    1 *
+       59     6    0.250000    0.000000    0.250000    0.250000    2
+       60     6    0.250000    0.353553    0.000000    0.500000    1 *
+       61     6    0.250000    0.353553    0.000000    0.500000    1 *
+       62     6    0.250000    0.353553    0.000000    0.500000    1 *
+       63     5    0.208333    0.176777    0.083333    0.333333    2
+       64     5    0.208333    0.294628    0.000000    0.416667    1 *
+       65     5    0.208333    0.294628    0.000000    0.416667    1 *
+       66     5    0.208333    0.294628    0.000000    0.416667    1 *
+       67     5    0.208333    0.058926    0.166667    0.250000    2
+       68     5    0.208333    0.294628    0.000000    0.416667    1 *
+       69     5    0.208333    0.058926    0.166667    0.250000    2
+       70     5    0.208333    0.294628    0.000000    0.416667    1 *
+       71     5    0.208333    0.294628    0.000000    0.416667    1 *
+       72     5    0.208333    0.294628    0.000000    0.416667    1 *
+       73     5    0.208333    0.294628    0.000000    0.416667    1 *
+       74     5    0.208333    0.294628    0.000000    0.416667    1 *
+       75     5    0.208333    0.294628    0.000000    0.416667    1 *
+       76     5    0.208333    0.294628    0.000000    0.416667    1 *
+       77     5    0.208333    0.294628    0.000000    0.416667    1 *
+       78     4    0.166667    0.235702    0.000000    0.333333    1 *
+       79     4    0.166667    0.235702    0.000000    0.333333    1 *
+       80     4    0.166667    0.235702    0.000000    0.333333    1 *
+       81     4    0.166667    0.235702    0.000000    0.333333    1 *
+       82     4    0.166667    0.235702    0.000000    0.333333    1 *
+       83     4    0.166667    0.235702    0.000000    0.333333    1 *
+       84     4    0.166667    0.235702    0.000000    0.333333    1 *
+       85     4    0.166667    0.235702    0.000000    0.333333    1 *
+       86     4    0.166667    0.235702    0.000000    0.333333    1 *
+       87     4    0.166667    0.235702    0.000000    0.333333    1 *
+       88     4    0.166667    0.235702    0.000000    0.333333    1 *
+       89     4    0.166667    0.235702    0.000000    0.333333    1 *
+       90     4    0.166667    0.235702    0.000000    0.333333    1 *
+       91     4    0.166667    0.117851    0.083333    0.250000    2
+       92     4    0.166667    0.235702    0.000000    0.333333    1 *
+       93     4    0.166667    0.235702    0.000000    0.333333    1 *
+       94     4    0.166667    0.235702    0.000000    0.333333    1 *
+       95     4    0.166667    0.235702    0.000000    0.333333    1 *
+       96     4    0.166667    0.235702    0.000000    0.333333    1 *
+       97     4    0.166667    0.235702    0.000000    0.333333    1 *
+       98     4    0.166667    0.235702    0.000000    0.333333    1 *
+       99     4    0.166667    0.235702    0.000000    0.333333    1 *
+      100     4    0.166667    0.235702    0.000000    0.333333    1 *
+      101     4    0.166667    0.235702    0.000000    0.333333    1 *
+      102     4    0.166667    0.235702    0.000000    0.333333    1 *
+      103     4    0.166667    0.235702    0.000000    0.333333    1 *
+      104     4    0.166667    0.235702    0.000000    0.333333    1 *
+      105     3    0.125000    0.176777    0.000000    0.250000    1 *
+      106     3    0.125000    0.176777    0.000000    0.250000    1 *
+      107     3    0.125000    0.176777    0.000000    0.250000    1 *
+      108     3    0.125000    0.176777    0.000000    0.250000    1 *
+      109     3    0.125000    0.176777    0.000000    0.250000    1 *
+      110     3    0.125000    0.176777    0.000000    0.250000    1 *
+      111     3    0.125000    0.176777    0.000000    0.250000    1 *
+      112     3    0.125000    0.176777    0.000000    0.250000    1 *
+      113     3    0.125000    0.176777    0.000000    0.250000    1 *
+      114     3    0.125000    0.176777    0.000000    0.250000    1 *
+      115     3    0.125000    0.176777    0.000000    0.250000    1 *
+      116     3    0.125000    0.176777    0.000000    0.250000    1 *
+      117     3    0.125000    0.176777    0.000000    0.250000    1 *
+      118     3    0.125000    0.176777    0.000000    0.250000    1 *
+      119     3    0.125000    0.176777    0.000000    0.250000    1 *
+      120     3    0.125000    0.176777    0.000000    0.250000    1 *
+      121     3    0.125000    0.176777    0.000000    0.250000    1 *
+      122     3    0.125000    0.176777    0.000000    0.250000    1 *
+      123     3    0.125000    0.176777    0.000000    0.250000    1 *
+      124     3    0.125000    0.176777    0.000000    0.250000    1 *
+      125     3    0.125000    0.176777    0.000000    0.250000    1 *
+      126     3    0.125000    0.176777    0.000000    0.250000    1 *
+      127     3    0.125000    0.176777    0.000000    0.250000    1 *
+      128     3    0.125000    0.176777    0.000000    0.250000    1 *
+      129     3    0.125000    0.176777    0.000000    0.250000    1 *
+      130     3    0.125000    0.176777    0.000000    0.250000    1 *
+      131     3    0.125000    0.176777    0.000000    0.250000    1 *
+      132     3    0.125000    0.176777    0.000000    0.250000    1 *
+      133     3    0.125000    0.176777    0.000000    0.250000    1 *
+      134     2    0.083333    0.117851    0.000000    0.166667    1 *
+      135     2    0.083333    0.117851    0.000000    0.166667    1 *
+      136     2    0.083333    0.117851    0.000000    0.166667    1 *
+      137     2    0.083333    0.117851    0.000000    0.166667    1 *
+      138     2    0.083333    0.117851    0.000000    0.166667    1 *
+      139     2    0.083333    0.117851    0.000000    0.166667    1 *
+      140     2    0.083333    0.117851    0.000000    0.166667    1 *
+      141     2    0.083333    0.117851    0.000000    0.166667    1 *
+      142     2    0.083333    0.117851    0.000000    0.166667    1 *
+      143     2    0.083333    0.117851    0.000000    0.166667    1 *
+      144     2    0.083333    0.117851    0.000000    0.166667    1 *
+      145     2    0.083333    0.117851    0.000000    0.166667    1 *
+      146     2    0.083333    0.117851    0.000000    0.166667    1 *
+      147     2    0.083333    0.117851    0.000000    0.166667    1 *
+      148     2    0.083333    0.117851    0.000000    0.166667    1 *
+      149     2    0.083333    0.117851    0.000000    0.166667    1 *
+      150     2    0.083333    0.117851    0.000000    0.166667    1 *
+      151     2    0.083333    0.117851    0.000000    0.166667    1 *
+      152     2    0.083333    0.117851    0.000000    0.166667    1 *
+      153     2    0.083333    0.117851    0.000000    0.166667    1 *
+      154     2    0.083333    0.117851    0.000000    0.166667    1 *
+      155     2    0.083333    0.117851    0.000000    0.166667    1 *
+      156     2    0.083333    0.117851    0.000000    0.166667    1 *
+      157     2    0.083333    0.117851    0.000000    0.166667    1 *
+      158     2    0.083333    0.117851    0.000000    0.166667    1 *
+      159     2    0.083333    0.117851    0.000000    0.166667    1 *
+      160     2    0.083333    0.117851    0.000000    0.166667    1 *
+      161     2    0.083333    0.117851    0.000000    0.166667    1 *
+      162     2    0.083333    0.117851    0.000000    0.166667    1 *
+      163     2    0.083333    0.117851    0.000000    0.166667    1 *
+      -----------------------------------------------------------------
+      + Convergence diagnostic (standard deviation of split frequencies)
+        should approach 0.0 as runs converge.
+
+      * The partition was not found in all runs so the values are unreliable
+
+      Summary statistics for branch and node parameters
+         (saved to file "lastOne.fasta.nex.vstat"):
+
+                                               95% HPD Interval
+                                             --------------------
+      Parameter       Mean       Variance     Lower       Upper       Median     PSRF+  Nruns
+      ---------------------------------------------------------------------------------------
+      length[1]      4.130227   11.033498    0.288266   11.053650    2.711077    1.047    2
+      length[2]      1.190048    0.369272    0.592844    2.308868    0.975442    0.991    2
+      length[3]      8.491723   37.231832    2.828415   21.295770    6.299552    1.181    2
+      length[4]      2.371460    1.479625    0.876897    4.896614    2.274041    1.108    2
+      length[5]      2.481739    3.845549    0.018751    6.128973    2.123452    0.969    2
+      length[6]      0.712921    0.625638    0.022937    2.025395    0.398168    1.621    2
+      length[7]      1.560508    2.127209    0.014736    2.623027    1.779972    0.958    2
+      length[8]      5.473083   12.924023    0.142073   11.989700    4.743078    1.191    2
+      length[9]      2.708152    1.126069    0.624194    4.659186    2.311503    1.093    2
+      length[10]     1.526078    0.804464    0.609714    3.121114    1.171113    0.974    2
+      length[11]     2.062118    1.869104    0.884872    4.995125    1.467269    1.083    2
+      length[12]     4.496002   11.835359    0.573175   11.590190    2.878491    1.074    2
+      length[13]     1.836963    0.574797    1.318408    3.323295    1.477101    1.051    2
+      length[14]     1.446461    0.576325    0.563743    2.765049    1.535091    0.970    2
+      length[15]     2.778419    2.892303    0.740458    6.186959    2.533953    1.010    2
+      length[16]     1.594662    0.524573    0.806364    2.548645    1.572836    1.075    2
+      length[17]     5.129085   11.160239    0.195657   11.732920    4.068005    0.985    2
+      length[18]     1.750443    1.499851    0.112753    4.311818    1.497495    1.053    2
+      length[19]     2.659495    4.397780    0.175689    6.356677    2.340825    0.958    2
+      length[20]     7.443935   21.532122    1.010553   16.613420    6.340916    1.070    2
+      length[21]     2.942652    6.497713    0.045260    5.981700    4.262234    4.793    2
+      length[22]     1.229278    0.363709    0.726494    2.420307    0.988364    1.038    2
+      length[23]     1.670364    1.302845    0.601169    3.724763    1.275008    0.958    2
+      length[24]     7.792426   46.608605    1.381328   20.825490    6.078815    1.112    2
+      length[25]     4.055439   11.275882    0.079751   11.847000    3.025864    0.971    2
+      length[26]     1.794719    2.174768    0.343508    4.842700    1.273134    1.130    2
+      length[27]     3.678579    6.563398    0.529341    8.935199    3.199434    1.081    2
+      length[28]     2.749293    1.025052    1.545663    4.758554    2.570402    1.253    2
+      length[29]     3.030963    9.830068    0.019998    7.355960    2.063884    1.018    2
+      length[30]     4.992852   12.597845    0.342701   11.836200    3.677548    0.961    2
+      length[31]     4.399250   25.568064    0.283830   15.624780    2.387655    1.096    2
+      length[32]     2.496646    5.654433    0.300921    8.220080    1.869037    0.963    2
+      length[33]     1.849087    0.467210    0.769944    3.011094    1.724286    1.169    2
+      length[34]     2.400235    3.482078    0.095282    5.858882    1.815777    0.962    2
+      length[35]     5.938516   11.169408    1.168289   10.115920    5.759940    1.239    2
+      length[36]     0.239144    0.003036    0.145828    0.289701    0.224049    1.112    2
+      length[37]     0.510506    0.155628    0.231747    0.918359    0.349840    0.913    2
+      length[38]     1.107259    0.965599    0.117759    2.895957    0.612142     NA      2
+      length[39]     1.618389    1.290248    0.294812    3.215373    1.089906    3.216    2
+      length[40]     0.534834    0.076891    0.114034    0.787135    0.650596     NA      1 *
+      length[41]     0.517746    0.294118    0.000416    1.458665    0.329930    2.748    2
+      length[42]     4.749834    4.620735    2.384418    8.483078    4.177531     NA      1 *
+      length[43]     2.610419    3.438271    1.163325    7.374610    2.299727    0.882    2
+      length[44]     8.161244   19.186440    4.644794   16.353410    6.118553     NA      1 *
+      length[45]     0.385008    0.008088    0.235811    0.507211    0.388233     NA      1 *
+      length[46]     2.132930    0.111663    1.513087    2.460446    2.266833     NA      1 *
+      length[47]     2.636985    0.139499    2.205689    3.174478    2.846342     NA      1 *
+      length[48]     0.757296    0.008208    0.633912    0.872960    0.741211     NA      1 *
+      length[49]     0.615410    0.121049    0.247145    1.125821    0.709297     NA      1 *
+      length[50]     0.769267    0.311921    0.245165    1.692327    0.515647     NA      1 *
+      length[51]     0.649258    0.146768    0.362709    1.464332    0.552040     NA      1 *
+      length[52]     2.116335    2.743334    0.037923    4.159960    2.343015     NA      2
+      length[53]     0.665221    0.018840    0.421370    0.867161    0.691689     NA      1 *
+      length[54]     2.488040    0.167925    2.153798    3.302419    2.480532     NA      1 *
+      length[55]     4.519978    9.007541    0.063435    9.194087    4.271931    1.971    2
+      length[56]     0.614067    0.105717    0.267882    1.276773    0.589695     NA      1 *
+      length[57]     0.439678    0.054874    0.199055    0.781997    0.423744     NA      1 *
+      length[58]     3.266235    2.703838    1.571869    6.201814    3.162059     NA      1 *
+      length[59]     0.728681    0.188531    0.474000    1.610697    0.585059    0.922    2
+      length[60]     4.773670    4.268399    2.752691    8.508332    4.371118     NA      1 *
+      length[61]     0.733635    0.648022    0.059902    2.320330    0.577980     NA      1 *
+      length[62]     0.550211    0.032490    0.319257    0.853044    0.561575     NA      1 *
+      length[63]     4.678499    3.548977    1.571890    6.489410    4.987116    0.775    2
+      length[64]     0.702870    0.054793    0.379680    0.963897    0.740965     NA      1 *
+      length[65]     2.347751    0.004717    2.289899    2.459856    2.311535     NA      1 *
+      length[66]     3.680164    6.800818    0.344557    7.417531    3.154069     NA      1 *
+      length[67]     2.115360    1.879726    1.174666    4.539388    1.644758    1.001    2
+      length[68]     0.503909    0.013149    0.419430    0.633776    0.420578     NA      1 *
+      length[69]     0.077065    0.001403    0.026896    0.106499    0.101421    1.062    2
+      length[70]     4.166887    0.640174    3.182260    5.328179    3.929953     NA      1 *
+      length[71]     0.645249    0.145747    0.210352    1.128140    0.662546     NA      1 *
+      length[72]     1.106144    0.018572    1.025655    1.348004    1.056994     NA      1 *
+      length[73]     0.281049    0.036382    0.111055    0.577600    0.196473     NA      1 *
+      length[74]     1.112921    1.435104    0.092410    3.133360    0.846333     NA      1 *
+      length[75]     0.816724    0.136781    0.309447    1.247860    0.923843     NA      1 *
+      length[76]     0.470816    0.075174    0.081693    0.848535    0.455168     NA      1 *
+      length[77]     2.269351    0.088346    1.833264    2.672522    2.287460     NA      1 *
+      length[78]     2.520742    2.837316    0.644985    4.665771    2.808055     NA      1 *
+      length[79]     0.379589    0.007034    0.291971    0.483877    0.405972     NA      1 *
+      length[80]     4.574868    1.566162    3.698453    6.419884    4.259688     NA      1 *
+      length[81]     0.660493    0.067808    0.290019    0.853995    0.829821     NA      1 *
+      length[82]     1.938570    0.339190    1.385579    2.710473    2.043562     NA      1 *
+      length[83]     1.318700    0.138987    1.068066    1.872340    1.196519     NA      1 *
+      length[84]    21.938570   32.125056   16.922300   26.847690   26.845340     NA      1 *
+      length[85]     2.237311    0.332574    1.597295    2.992558    2.254073     NA      1 *
+      length[86]     1.885534    0.358962    1.360754    2.457425    2.348457     NA      1 *
+      length[87]     4.174304    9.848154    1.373031    8.579527    4.081206     NA      1 *
+      length[88]     0.901998    0.039528    0.656515    1.137621    0.944040     NA      1 *
+      length[89]     1.934385    0.276392    1.200274    2.445208    2.092875     NA      1 *
+      length[90]     4.499446    1.273314    2.833427    5.298760    5.054930     NA      1 *
+      length[91]     0.602413    0.028559    0.396433    0.810342    0.604084     NA      2
+      length[92]     2.769708    0.908181    1.848410    4.084363    2.760205     NA      1 *
+      length[93]     1.257525    0.952678    0.251565    2.314868    1.834655     NA      1 *
+      length[94]     0.483537    0.067040    0.196923    0.795759    0.573595     NA      1 *
+      length[95]     1.899869    0.632161    1.132265    2.587744    2.584294     NA      1 *
+      length[96]     1.503282    0.044420    1.190463    1.648309    1.599306     NA      1 *
+      length[97]     1.680751    0.924214    0.718434    2.691467    2.298372     NA      1 *
+      length[98]     2.213696    1.637724    0.375258    3.289845    2.800606     NA      1 *
+      length[99]     0.194072    0.074640    0.000210    0.580062    0.195201     NA      1 *
+      length[100]    1.467812    0.244252    1.141436    2.196855    1.349121     NA      1 *
+      length[101]    4.470421    0.360226    3.989748    5.232757    4.667826     NA      1 *
+      length[102]    0.807940    0.665811    0.160172    1.997310    0.628140     NA      1 *
+      length[103]    1.125937    0.065237    0.866187    1.476274    1.107127     NA      1 *
+      length[104]    5.641594    0.538471    4.609821    6.249126    6.067924     NA      1 *
+      length[105]    0.298131    0.005286    0.214576    0.347009    0.332807     NA      1 *
+      length[106]    0.710692    0.881595    0.099149    1.791774    0.241152     NA      1 *
+      length[107]    5.123170    0.249024    4.649377    5.644081    5.076053     NA      1 *
+      length[108]    1.881081    0.152737    1.448181    2.207919    1.987143     NA      1 *
+      length[109]    0.988821    0.519820    0.173776    1.543300    1.249388     NA      1 *
+      length[110]    2.390472    0.001938    2.364186    2.441300    2.365930     NA      1 *
+      length[111]    2.378812    0.165629    1.919418    2.694224    2.522793     NA      1 *
+      length[112]    0.883010    1.420464    0.138259    2.257620    0.253152     NA      1 *
+      length[113]    2.421989    2.272672    1.098179    4.062831    2.104957     NA      1 *
+      length[114]    2.570805    0.153110    2.220454    2.993064    2.498898     NA      1 *
+      length[115]    0.228936    0.001920    0.203032    0.279530    0.204245     NA      1 *
+      length[116]    1.131781    0.172975    0.837750    1.607634    0.949960     NA      1 *
+      length[117]    0.194710    0.001564    0.157944    0.236548    0.189640     NA      1 *
+      length[118]    1.626360    0.920865    0.702547    2.618165    1.558367     NA      1 *
+      length[119]    0.288971    0.029185    0.092635    0.403705    0.370571     NA      1 *
+      length[120]    1.377783    0.781369    0.357149    1.898003    1.878198     NA      1 *
+      length[121]    1.031535    0.038978    0.843696    1.237328    1.013580     NA      1 *
+      length[122]    1.561627    0.872715    0.482946    2.108085    2.093850     NA      1 *
+      length[123]    0.253133    0.000024    0.247513    0.256292    0.255593     NA      1 *
+      length[124]    1.122059    0.496761    0.577626    1.918161    0.870391     NA      1 *
+      length[125]    1.070231    0.158888    0.612191    1.338456    1.260047     NA      1 *
+      length[126]    1.214284    0.210462    0.749453    1.666725    1.226675     NA      1 *
+      length[127]    1.875739    1.873085    0.306118    2.819615    2.501484     NA      1 *
+      length[128]    0.476752    0.161144    0.035583    0.820508    0.574164     NA      1 *
+      length[129]    0.576600    0.000003    0.574751    0.578033    0.577016     NA      1 *
+      length[130]    2.042018    0.331252    1.391507    2.485081    2.249467     NA      1 *
+      length[131]    0.049430    0.002184    0.001530    0.094906    0.051854     NA      1 *
+      length[132]    1.194552    0.116755    0.802571    1.429503    1.351583     NA      1 *
+      length[133]    7.846016    0.123233    7.640527    8.251355    7.646165     NA      1 *
+      length[134]    2.509664    0.014704    2.423921    2.595407    2.595407     NA      1 *
+      length[135]    0.408606    0.260316    0.047832    0.769380    0.769380     NA      1 *
+      length[136]    1.199465    0.082742    0.996066    1.402863    1.402863     NA      1 *
+      length[137]    0.749463    0.000080    0.743156    0.755770    0.755770     NA      1 *
+      length[138]    3.106758    0.008751    3.040611    3.172906    3.172906     NA      1 *
+      length[139]    0.301367    0.127567    0.048812    0.553921    0.553921     NA      1 *
+      length[140]    1.013231    0.055672    0.846391    1.180072    1.180072     NA      1 *
+      length[141]    0.360937    0.241606    0.013369    0.708504    0.708504     NA      1 *
+      length[142]    1.380161    0.026899    1.264190    1.496132    1.496132     NA      1 *
+      length[143]    1.693512    3.759804    0.322416    3.064607    3.064607     NA      1 *
+      length[144]    0.352355    0.079890    0.152492    0.552218    0.552218     NA      1 *
+      length[145]    0.243475    0.043541    0.095927    0.391023    0.391023     NA      1 *
+      length[146]    1.007730    0.006056    0.952702    1.062758    1.062758     NA      1 *
+      length[147]    0.619861    0.042753    0.473654    0.766068    0.766068     NA      1 *
+      length[148]    1.191972    0.131621    0.935437    1.448508    1.448508     NA      1 *
+      length[149]    0.148489    0.009670    0.078954    0.218024    0.218024     NA      1 *
+      length[150]    0.490084    0.311174    0.095639    0.884529    0.884529     NA      1 *
+      length[151]    0.332036    0.159105    0.049986    0.614086    0.614086     NA      1 *
+      length[152]    0.262089    0.002017    0.230332    0.293846    0.293846     NA      1 *
+      length[153]    0.691258    0.549526    0.167079    1.215436    1.215436     NA      1 *
+      length[154]    1.671287    2.973825    0.451897    2.890677    2.890677     NA      1 *
+      length[155]    0.900039    0.022491    0.793993    1.006084    1.006084     NA      1 *
+      length[156]    4.701538    8.054834    2.694696    6.708381    6.708381     NA      1 *
+      length[157]    0.390425    0.124931    0.140495    0.640356    0.640356     NA      1 *
+      length[158]    0.544791    0.000153    0.536049    0.553533    0.553533     NA      1 *
+      length[159]    0.139571    0.003446    0.098063    0.181079    0.181079     NA      1 *
+      length[160]    0.843770    0.165408    0.556187    1.131353    1.131353     NA      1 *
+      length[161]    3.176239    3.355596    1.880940    4.471537    4.471537     NA      1 *
+      length[162]    0.376246    0.045961    0.224653    0.527838    0.527838     NA      1 *
+      length[163]    0.727560    0.309686    0.334060    1.121061    1.121061     NA      1 *
+      ---------------------------------------------------------------------------------------
+      + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
+        and Rubin, 1992) should approach 1.0 as runs converge. NA is reported when
+        deviation of parameter values within all runs is 0 or when a parameter
+        value (a branch length, for instance) is not sampled in all runs.
+      * The partition was not found in all runs so the values are unreliable.
+
+
+      Summary statistics for partitions with frequency >= 0.10 in at least one run:
+          Average standard deviation of split frequencies = 0.226637
+          Maximum standard deviation of split frequencies = 0.589256
+          Average PSRF for parameter values (excluding NA and >10.0) = 1.240
+          Maximum PSRF for parameter values = 4.793
+
+
+      Clade credibility values:
+
+      /---------------------------------------------------------------- NC_060520 (1)
+      |                                                                               
+      |---------------------------------------------------------------- NC_051932 (2)
+      |                                                                               
+      |---------------------------------------------------------------- OR620163 (3)
+      |                                                                               
+      |---------------------------------------------------------------- NC_053523 (5)
+      |                                                                               
+      |---------------------------------------------------------------- NC_029849 (6)
+      |                                                                               
+      |---------------------------------------------------------------- NC_003081 (7)
+      |                                                                               
+      |---------------------------------------------------------------- NC_023832 (8)
+      |                                                                               
+      |---------------------------------------------------------------- NC_001941 (9)
+      |                                                                               
+      |---------------------------------------------------------------- MN356385 (12)
+      |                                                                               
+      |---------------------------------------------------------------- NC_022817 (13)
+      |                                                                               
+      |---------------------------------------------------------------- NC_026461 (14)
+      |                                                                               
+      |---------------------------------------------------------------- NC_005089 (15)
+      |                                                                               
+      |---------------------------------------------------------------- NC_009684 (17)
+      |                                                                               
+      |---------------------------------------------------------------- NC_026542 (18)
+      |                                                                               
+      |---------------------------------------------------------------- NC_002785 (19)
+      |                                                                               
+      |---------------------------------------------------------------- NC_045042 (20)
+      |                                                                               
+      +---------------------------------------------------------------- NC_027938 (23)
+      |                                                                               
+      |---------------------------------------------------------------- LC705055 (24)
+      |                                                                               
+      |---------------------------------------------------------------- NC_003426 (25)
+      |                                                                               
+      |---------------------------------------------------------------- MK886830 (29)
+      |                                                                               
+      |---------------------------------------------------------------- MF069441 (30)
+      |                                                                               
+      |---------------------------------------------------------------- NC_064558 (31)
+      |                                                                               
+      |---------------------------------------------------------------- NC_027424 (32)
+      |                                                                               
+      |                               /-------------------------------- MZ318036 (10)
+      |--------------100--------------+                                               
+      |                               \-------------------------------- NC_002784 (16)
+      |                                                                               
+      |                               /-------------------------------- NC_027095 (21)
+      |---------------67--------------+                                               
+      |                               \-------------------------------- NC_027096 (27)
+      |                                                                               
+      |                               /-------------------------------- NC_007897 (22)
+      |---------------54--------------+                                               
+      |                               \-------------------------------- NC_036264 (33)
+      |                                                                               
+      |                               /-------------------------------- NC_001665 (4)
+      |---------------50--------------+                                               
+      |                               \-------------------------------- NC_005129 (28)
+      |                                                                               
+      |                               /-------------------------------- NC_024511 (11)
+      \---------------50--------------+                                               
+                                      \-------------------------------- NC_030265 (26)
+                                                                                      
+
+      Phylogram (based on average branch lengths):
+
+                                                                                                                                                                                                                                                                                                                                                                                                                  /----------------- NC_060520 (1)
+      |                                                                               
+      |------ NC_051932 (2)
+      |                                                                               
+      |---------------------------------------- OR620163 (3)
+      |                                                                               
+      |-------------- NC_053523 (5)
+      |                                                                               
+      |--- NC_029849 (6)
+      |                                                                               
+      |----------- NC_003081 (7)
+      |                                                                               
+      |------------------------------ NC_023832 (8)
+      |                                                                               
+      |--------------- NC_001941 (9)
+      |                                                                               
+      |------------------ MN356385 (12)
+      |                                                                               
+      |--------- NC_022817 (13)
+      |                                                                               
+      |---------- NC_026461 (14)
+      |                                                                               
+      |---------------- NC_005089 (15)
+      |                                                                               
+      |-------------------------- NC_009684 (17)
+      |                                                                               
+      |---------- NC_026542 (18)
+      |                                                                               
+      |--------------- NC_002785 (19)
+      |                                                                               
+      |---------------------------------------- NC_045042 (20)
+      |                                                                               
+      +-------- NC_027938 (23)
+      |                                                                               
+      |--------------------------------------- LC705055 (24)
+      |                                                                               
+      |------------------- NC_003426 (25)
+      |                                                                               
+      |------------- MK886830 (29)
+      |                                                                               
+      |----------------------- MF069441 (30)
+      |                                                                               
+      |--------------- NC_064558 (31)
+      |                                                                               
+      |------------ NC_027424 (32)
+      |                                                                               
+      |           /------- MZ318036 (10)
+      |-----------+                                                                   
+      |           \---------- NC_002784 (16)
+      |                                                                               
+      |                                    /--------------------------- NC_027095 (21)
+      |------------------------------------+                                          
+      |                                    \-------------------- NC_027096 (27)
+      |                                                                               
+      |/------- NC_007897 (22)
+      |+                                                                              
+      |\----------- NC_036264 (33)
+      |                                                                               
+      |   /-------------- NC_001665 (4)
+      |---+                                                                           
+      |   \---------------- NC_005129 (28)
+      |                                                                               
+      | /---------- NC_024511 (11)
+      \-+                                                                             
+        \-------- NC_030265 (26)
+                                                                                      
+      |-----------| 2.000 expected changes per site
+
+      Calculating tree probabilities...
+
+      Credible sets of trees (24 trees sampled):
+         50 % credible set contains 12 trees
+         90 % credible set contains 22 trees
+         95 % credible set contains 23 trees
+         99 % credible set contains 24 trees
+
+   Exiting mrbayes block
+   Reached end of file
+
