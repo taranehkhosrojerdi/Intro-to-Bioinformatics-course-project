@@ -9,4 +9,4 @@ This task consists assemblying a given dataset of short reads using Galaxy tools
 This task focuses on understanding evoloutionary relationships between species using mitochondrial genome alignment, phylogenetic analysis, and exploration and anthropological insights.
 
 **3-Neural and Immunological Responses of Zebra Finches:**
-The goal in this task is to the influence of social environment on neural responses to sickness in Zebra Finches using methods of data processing, gene expression analysis, functional annotation and also some interpertation in the context of neurobiology, immunology, and social behavior.
+The goal in this task is to study the influence of social environment on neural responses to sickness in Zebra Finches using methods of data processing, gene expression analysis, functional annotation and also some interpertation in the context of neurobiology, immunology, and social behavior.
